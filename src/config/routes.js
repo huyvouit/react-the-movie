@@ -11,8 +11,9 @@ const RouteApp = () => {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="catalog" element={<Catalog />} />
-          <Route path="detail" element={<Detail />} />
+          <Route path="/:category/search/:keyword" element={<Catalog />} />
+          <Route path="/:category/:id" element={<Detail />} />
+          <Route path="/:category" element={<Catalog />} />
         </Route>
       </Routes>
     </BrowserRouter>
