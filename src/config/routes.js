@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Layout from "../components/layout";
 import Catalog from "../pages/catalog";
-import Detail from "../pages/detail";
+import Detail from "../pages/detail/detail";
 import Home from "../pages/home";
 
 const RouteApp = () => {

@@ -42,6 +42,7 @@ a {
 @media (hover: hover) {
   a:hover {
     color: $main-color;
+    transition: 0.25s ease-in;
   }
 }
 
